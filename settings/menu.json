@@ -9,12 +9,8 @@
       "link": "/about"
     },
     {
-      "name": "Blog",
-      "link": "/blog"
-    },
-    {
-      "name": "Contact",
-      "link": "/contact"
+      "name": "Privary Policy",
+      "link": "/privacy"
     }
   ]
 }

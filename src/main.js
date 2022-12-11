@@ -12,7 +12,19 @@ export default function (Vue, { router, head, isClient }) {
   head.htmlAttrs = { lang: 'en', class: 'min-h-full antialiased' }
 
   // Add attributes to BODY tag
-  head.bodyAttrs = { class: 'text-purple-900 leading-normal text-lg' }
+  head.bodyAttrs = { class: 'text-purple-900 leading-normal text-lg font-inter' }
 
-
+  head.link.push({
+    rel:'stylesheet',
+    href: 'https://fonts.googleapis.com'
+  })
+  head.link.push({
+    rel:'preconnect',
+    href: 'https://fonts.gstatic.com',
+    // crossorigin
+  })
+  head.link.push({
+    rel:'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Inter&display=swap',
+  })
 }

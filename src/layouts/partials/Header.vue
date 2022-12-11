@@ -8,7 +8,7 @@
       <ul class="flex flex-col items-center text-base menu md:flex-row list-reset">
         <li class="mb-4 level-1 md:mr-4 md:mb-0" v-for="element in $static.metadata.menu" :key="element.name">
           <g-link :to="element.link" class="font-bold text-white link hover:text-yellow-350"
-            active-class="is-active-link" exact-active-class="text-purple-650 active">{{ element.name }}</g-link>
+            active-class="is-active-link" exact-active-class="text-yellow-350 active">{{ element.name }}</g-link>
         </li>
       </ul>
     </nav>

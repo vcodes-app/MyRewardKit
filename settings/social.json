@@ -1,16 +1,12 @@
 {
   "social": [
     {
-      "icon": "facebook",
-      "link": "https://www.facebook.com"
-    },
-    {
       "icon": "twitter",
-      "link": "https://twitter.com/joe_dyer1"
+      "link": "https://twitter.com/AppVcodes"
     },
     {
-      "icon": "linkedin",
-      "link": "https://www.linkedin.com"
+      "icon": "discord",
+      "link": "https://discord.gg/vesrAdQhqQ"
     }
   ]
 }

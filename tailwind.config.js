@@ -4,6 +4,9 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    fontFamily:{
+      'inter': ['Inter', 'system-ui', 'sans-serif']
+    },
     colors: {
       transparent: 'transparent',
 

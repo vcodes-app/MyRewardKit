@@ -1,27 +1,27 @@
 <template>
   <Layout>
-    <section id="container-centre" class="flex flex-wrap-reverse centre">
+    <section class="flex flex-wrap-reverse flex-1">
 
-      <div class="justify-center content">
+      <div class="ml-12 content">
         <h1 class="page-title"> My Reward Kit</h1>
         <p>
-          A
-          <a href="https://www.gridsome.org">Gridsome</a> starter built with
-          <a href="https://tailwindcss.com">TailwindCSS</a>.
+          An
+          <a class="font-bold text-purple-650">AWESOME</a> reward kit built for
+          <a class="font-bold text-purple-650">Parents and Kids</a>.
         </p>
-        <h2 class="text-3xl">Features</h2>
+        <h2 class="text-3xl">For Prarents</h2>
         <ul class="pl-4 mb-12 list-disc">
-          <li>Build sites faster with the power of Gridsome, TailwindCSS and SCSS</li>
-          <li>Image lazyloading via gridsome builtin functionality</li>
-          <li>A simple blog with categories, tags and featured images</li>
+          <li>Easy management of tasks</li>
+          <li>Develop a positive feedback/reward system</li>
+          <li>Help keep your promises</li>
         </ul>
-        <h2 class="text-3xl">Credits</h2>
-        <p>
-          This template was built for <a href="https://www.11ty.dev/docs/" target="_blank">Eleventy</a> by <a
-            href="https://github.com/josephdyer" target="_blank"> Joseph Dyer</a>.
-        </p>
+        <h2 class="text-3xl">For Kids</h2>
+        <ul class="pl-4 mb-12 list-disc">
+          <li>Easy management of tasks</li>
+          <li>Efforts paid off </li>
+        </ul>
       </div>
-      <g-image src="~/myreward.png" width="500"></g-image>
+      <g-image class="ml-12" src="~/myreward.png" width="500"></g-image>
     </section>
   </Layout>
 </template>
@@ -33,3 +33,5 @@ export default {
   }
 };
 </script>
+
+
