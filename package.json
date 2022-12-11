@@ -11,6 +11,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^4.0.0",
     "gridsome": "^0.7.23",
     "gridsome-source-static-meta": "github:noxify/gridsome-source-static-meta#master",
     "postcss": "^8.2.2",
