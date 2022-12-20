@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'RewardKit',
-  siteUrl: 'https://meganmeiyang.github.io',
+  siteUrl: 'https://vcodes-app.github.io',
   pathPrefix: '/MyRewardKit',
   plugins: [
     {
