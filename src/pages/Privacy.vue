@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section id="container-centre" class="flex-1 column centre">
-      <h1 class="mb-16 text-3xl page-title md:text-center md:text-5xl lg:mb-24 lg:text-6xl">Privary Policy</h1>
+      <h1 class="mb-16 text-3xl page-title md:text-center md:text-5xl lg:mb-24 lg:text-6xl">Privacy Policy</h1>
       <p>
         VIT built the My RewardKit app as
         a Free app. This SERVICE is provided by
@@ -155,7 +155,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Privary Policy"
+    title: "Privacy Policy"
   }
 };
 </script>
